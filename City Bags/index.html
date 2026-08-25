@@ -1,0 +1,2043 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="City Bags is a trusted destination for quality bags, branded luggage, and professional bag repair services in Karur.">
+    <title>City Bags</title>
+
+    <!-- Schema Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Store",
+      "name": "City Bags",
+      "image": "https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png",
+      "description": "City Bags is a trusted destination for quality bags, branded luggage, and professional bag repair services in Karur.",
+      "telephone": "+919087663333",
+      "url": "https://maps.app.goo.gl/nLiRV1h5QoNhmuEw9",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "10, Kovai Main Rd, opp. eb Office",
+        "addressLocality": "Karur",
+        "addressRegion": "Tamil Nadu",
+        "postalCode": "639002",
+        "addressCountry": "IN"
+      }
+    }
+    </script>
+    <!-- Favicon -->
+    <link rel="icon" type="image/png"
+        href="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png">
+
+    <!-- Apple Touch Icon -->
+    <link rel="apple-touch-icon"
+        href="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png">
+
+    <!-- Apple Touch Icon (Precomposed) -->
+    <link rel="apple-touch-icon-precomposed"
+        href="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png">
+
+    <!-- Shortcut Icon -->
+    <link rel="shortcut icon" type="image/png"
+        href="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        /* Apple-style Premium CSS Variables */
+        :root {
+            --primary: #0071e3;
+            /* Apple Blue */
+            --primary-hover: #0077ED;
+            --bg-color: #ffffff;
+            --surface: #fbfbfd;
+            --surface-hover: #f5f5f7;
+            --text-dark: #1d1d1f;
+            --text-light: #86868b;
+            --radius: 18px;
+            --shadow-sm: 0 4px 14px rgba(0, 0, 0, 0.04);
+            --shadow-md: 0 8px 30px rgba(0, 0, 0, 0.08);
+            --transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-dark);
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            overflow-x: hidden;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        /* Typography */
+        h1,
+        h2,
+        h3,
+        h4 {
+            font-weight: 600;
+            letter-spacing: -0.02em;
+        }
+
+        h2 {
+            font-size: 2.5rem;
+            text-align: center;
+            margin-bottom: 3.5rem;
+            color: var(--text-dark);
+        }
+
+        p {
+            color: var(--text-light);
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 0 14px;
+        }
+
+        section {
+            padding: 100px 0;
+        }
+
+        section.bg-surface {
+            background-color: var(--surface);
+            border-top: 1px solid rgba(0, 0, 0, 0.03);
+            border-bottom: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        /* Top Header */
+        .top-header {
+            background-color: #1d1d1f;
+            color: #f5f5f7;
+            font-size: 0.85rem;
+            padding: 12px 0;
+            font-weight: 400;
+        }
+
+        .top-header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 12px;
+        }
+
+        .top-info {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .top-header a {
+            color: #f5f5f7;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            transition: var(--transition);
+        }
+
+        .top-header a:hover {
+            color: #fff;
+            opacity: 0.8;
+        }
+
+        .top-header svg {
+            width: 14px;
+            height: 14px;
+            fill: currentColor;
+        }
+
+        /* Navbar */
+        .navbar {
+            position: sticky;
+            top: 0;
+            background: rgba(255, 255, 255, 0.85);
+            backdrop-filter: saturate(180%) blur(20px);
+            -webkit-backdrop-filter: saturate(180%) blur(20px);
+            z-index: 1000;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+        }
+
+        .navbar .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 70px;
+        }
+
+        .nav-brand {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            text-decoration: none;
+            color: var(--text-dark);
+        }
+
+        .nav-brand img {
+            width: 36px;
+            height: 36px;
+            border-radius: 10%;
+            object-fit: contain;
+            border: 2px solid white;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+        }
+
+        .nav-brand span {
+            font-weight: 600;
+            font-size: 1.15rem;
+            letter-spacing: -0.02em;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 32px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: var(--text-dark);
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: var(--transition);
+        }
+
+        .nav-links a:hover {
+            color: var(--primary);
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 60px 0 80px;
+        }
+
+        .hero-logo {
+            width: 130px;
+            height: 130px;
+            border-radius: 10%;
+            object-fit: contain;
+            box-shadow: var(--shadow-md);
+            margin-bottom: 24px;
+            border: 4px solid white;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            margin-bottom: 12px;
+            line-height: 1.1;
+        }
+
+        .hero p.tagline {
+            font-size: 1.25rem;
+            color: var(--text-light);
+            margin-bottom: 32px;
+            font-weight: 400;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        /* Owner Section */
+        .owner-section {
+            text-align: center;
+        }
+
+        .owner-profile {
+            display: inline-flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            background: white;
+            padding: 40px;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+            max-width: 500px;
+            margin: 0 auto;
+            transition: var(--transition);
+        }
+
+        .owner-profile:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .owner-profile img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: var(--shadow-sm);
+            border: 3px solid var(--surface);
+        }
+
+        .owner-profile h3 {
+            font-size: 1.5rem;
+            color: var(--text-dark);
+            margin: 0;
+        }
+
+        .owner-profile p {
+            font-size: 1rem;
+            color: var(--primary);
+            font-weight: 500;
+            margin: 0;
+        }
+
+        /* Buttons */
+        .btn-group {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 14px 28px;
+            border-radius: 98px;
+            font-weight: 500;
+            font-size: 1rem;
+            text-decoration: none;
+            transition: var(--transition);
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-primary {
+            background: var(--primary);
+            color: white;
+            box-shadow: 0 4px 14px rgba(0, 113, 227, 0.3);
+        }
+
+        .btn-primary:hover {
+            background: var(--primary-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 113, 227, 0.4);
+        }
+
+        .btn-secondary {
+            background: var(--surface);
+            color: var(--text-dark);
+            border: 1px solid rgba(0, 0, 0, 0.05);
+        }
+
+        .btn-secondary:hover {
+            background: #e8e8ed;
+            transform: translateY(-2px);
+        }
+
+        .btn svg {
+            width: 18px;
+            height: 18px;
+            fill: currentColor;
+        }
+
+        /* Social Icons */
+        .social-icons {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+        }
+
+        .social-icon {
+            width: 36px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: white;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            text-decoration: none;
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .social-icon:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: var(--shadow-md);
+        }
+
+        .social-icon svg {
+            width: 32px;
+            height: 32px;
+        }
+
+        /* Real Colors for SVGs */
+        .color-fb {
+            fill: #1877F2;
+        }
+
+        .color-ig {
+            fill: #E4405F;
+        }
+
+        .color-in {
+            fill: #0A66C2;
+        }
+
+        .color-wa {
+            fill: #25D366;
+        }
+
+        .color-yt {
+            fill: #FF0000;
+        }
+
+        .color-threads {
+            fill: #000000;
+        }
+
+        .color-x {
+            fill: #000000;
+        }
+
+        .color-gmail {
+            fill: #EA4335;
+        }
+
+        .color-web {
+            fill: #1d1d1f;
+        }
+
+        /* New UI Classes */
+        .about-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 48px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+        }
+
+        .about-image-wrapper {
+            position: relative;
+            border-radius: var(--radius);
+        }
+
+        .about-main-img {
+            width: 100%;
+            height: 650px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+        }
+
+        @media (max-width: 768px) {
+            .about-main-img {
+                height: 480px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .about-main-img {
+                height: 480px;
+            }
+        }
+
+        .about-text h2 {
+            text-align: left;
+            margin-bottom: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .about-text h2 {
+                text-align: center;
+            }
+        }
+
+        .about-text p {
+            font-size: 1.15rem;
+            margin-bottom: 20px;
+            color: var(--text-dark);
+            line-height: 1.8;
+        }
+
+        /* Clean Owner Profile */
+        .owner-profile-clean {
+            display: flex;
+            align-items: center;
+            gap: 40px;
+            background: white;
+            padding: 48px;
+            border-radius: 24px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            transition: var(--transition);
+        }
+
+        .owner-profile-clean:hover {
+            box-shadow: var(--shadow-md);
+            transform: translateY(-4px);
+        }
+
+        .owner-img-clean {
+            width: 180px;
+            height: 180px;
+            border-radius: 50%;
+            object-fit: cover;
+            box-shadow: var(--shadow-sm);
+            border: 4px solid var(--surface);
+            flex-shrink: 0;
+        }
+
+        .owner-info-clean h3 {
+            font-size: 2.2rem;
+            margin-bottom: 8px;
+            color: var(--text-dark);
+        }
+
+        .owner-info-clean h4 {
+            font-size: 1.1rem;
+            color: var(--primary);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 16px;
+        }
+
+        .owner-info-clean p {
+            font-size: 1.1rem;
+            color: var(--text-light);
+            line-height: 1.7;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .owner-profile-clean {
+                flex-direction: column;
+                text-align: center;
+                padding: 32px;
+                gap: 24px;
+            }
+
+            .owner-info-clean h3 {
+                font-size: 1.8rem;
+            }
+        }
+
+        /* Contact Section */
+        .contact-card-unified {
+            display: grid;
+            grid-template-columns: 1fr 1.2fr;
+            background: white;
+            border-radius: 24px;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.04);
+            overflow: hidden;
+            align-items: stretch;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        @media (max-width: 900px) {
+            .contact-card-unified {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .contact-info-unified {
+            padding: 48px;
+        }
+
+        @media (max-width: 768px) {
+            .contact-info-unified {
+                padding: 32px;
+            }
+        }
+
+        .contact-details-list {
+            display: flex;
+            flex-direction: column;
+            gap: 28px;
+        }
+
+        .contact-map-unified {
+            width: 100%;
+            height: 100%;
+            min-height: 400px;
+            background: var(--surface);
+        }
+
+        .contact-map-unified iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* Grid Layouts */
+        .grid-3 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 280px), 1fr));
+            gap: 24px;
+        }
+
+        .grid-2 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
+            gap: 32px;
+        }
+
+        /* Cards */
+        .card {
+            background: white;
+            border-radius: var(--radius);
+            padding: 32px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .card h3 {
+            margin-bottom: 12px;
+            font-size: 1.25rem;
+            color: var(--text-dark);
+        }
+
+        .service-icon {
+            width: 56px;
+            height: 56px;
+            background: rgba(0, 113, 227, 0.08);
+            border-radius: 14px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 24px;
+            color: var(--primary);
+        }
+
+        .service-icon svg {
+            width: 28px;
+            height: 28px;
+            /* fill: currentColor; removed so inline stroke/fill attributes work */
+        }
+
+        /* Gallery */
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            border-radius: var(--radius);
+            transition: var(--transition);
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .gallery-img:hover {
+            transform: scale(1.02);
+            box-shadow: var(--shadow-md);
+        }
+
+        /* Video & 360 Embed */
+        .embed-container {
+            position: relative;
+            padding-bottom: 56.25%;
+            height: 0;
+            overflow: hidden;
+            border-radius: var(--radius);
+            box-shadow: var(--shadow-md);
+            background: var(--surface);
+        }
+
+        .embed-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+
+        /* View Count */
+        .view-count-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+
+        .view-count {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: white;
+            padding: 12px 28px;
+            border-radius: 98px;
+            font-size: 0.95rem;
+            color: var(--text-dark);
+            font-weight: 500;
+            box-shadow: var(--shadow-sm);
+            border: 1px solid rgba(0, 0, 0, 0.03);
+        }
+
+        .view-count svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--primary);
+        }
+
+        /* ============ QR CODES ============ */
+        .qr-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 24px;
+        }
+
+        @media (max-width: 768px) {
+            .qr-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .qr-card-new {
+            background: var(--surface);
+            padding: 32px;
+            border-radius: 24px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            display: flex;
+            align-items: center;
+            gap: 32px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .qr-img-new {
+            width: 240px;
+            border-radius: 12px;
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            padding: 8px;
+        }
+
+        @media (max-width: 480px) {
+            .qr-card-new {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        /* Contact Details Grid */
+        .contact-details {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+        }
+
+        .contact-item {
+            display: flex;
+            align-items: flex-start;
+            gap: 16px;
+        }
+
+        .contact-icon {
+            width: 44px;
+            height: 44px;
+            background: var(--surface);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .contact-icon svg {
+            width: 20px;
+            height: 20px;
+            fill: var(--text-dark);
+        }
+
+        .contact-text h4 {
+            margin-bottom: 4px;
+            font-size: 1rem;
+            color: var(--text-dark);
+        }
+
+        /* ============ FOOTER ============ */
+        .footer-new {
+            background: #000;
+            color: #FFF;
+            padding: 80px 0 100px;
+            text-align: center;
+        }
+
+        .footer-content {
+            max-width: 600px;
+            margin: 0 auto 40px;
+        }
+
+        .footer-logo {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            border: 3px solid rgba(255, 255, 255, 0.2);
+            margin-bottom: 24px;
+            object-fit: contain;
+            background: white;
+        }
+
+        .footer-content h2 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+            color: #FFF;
+            text-align: center;
+        }
+
+        .footer-content p {
+            color: rgba(255, 255, 255, 0.7);
+            line-height: 1.8;
+            margin-bottom: 32px;
+            font-size: 1.05rem;
+        }
+
+        .social-icons-footer {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 12px;
+            margin-bottom: 40px;
+        }
+
+        .social-icons-footer a {
+            width: 44px;
+            height: 44px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            color: #FFF;
+        }
+
+        .social-icons-footer a:hover {
+            background: var(--primary);
+            transform: translateY(-4px);
+            color: #FFF;
+        }
+
+        .social-icons-footer svg {
+            width: 20px;
+            height: 20px;
+            fill: currentColor;
+        }
+
+        .footer-bottom {
+            padding-top: 32px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 16px;
+            font-size: 0.95rem;
+            color: rgba(255, 255, 255, 0.5);
+        }
+
+        .view-count-new {
+            font-family: monospace;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .view-count-new span {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 4px 12px;
+            border-radius: 100px;
+            color: #FFF;
+        }
+
+        /* ============ FLOATING ACTION STACK ============ */
+        .fab-stack {
+            position: fixed;
+            bottom: 24px;
+            right: 24px;
+            z-index: 900;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            align-items: flex-end;
+        }
+
+        .fab-new {
+            display: flex;
+            align-items: center;
+            height: 56px;
+            border-radius: 100px;
+            box-shadow: var(--shadow-md);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            overflow: hidden;
+            background: white;
+            color: var(--text-dark);
+            border: 1px solid rgba(0, 0, 0, 0.08);
+            text-decoration: none;
+        }
+
+        .fab-icon-new {
+            width: 56px;
+            height: 56px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-shrink: 0;
+        }
+
+        .fab-icon-new svg {
+            fill: currentColor;
+            width: 24px;
+            height: 24px;
+        }
+
+        .fab-label {
+            max-width: 0;
+            overflow: hidden;
+            white-space: nowrap;
+            font-weight: 600;
+            font-size: 15px;
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            padding: 0;
+        }
+
+        .fab-new:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 24px 48px rgba(0, 0, 0, 0.12);
+        }
+
+        .fab-new:hover .fab-label {
+            max-width: 150px;
+            padding: 0 20px 0 4px;
+        }
+
+        .fab-whatsapp {
+            background: #25D366;
+            color: #FFF;
+            border: none;
+        }
+
+        .fab-call {
+            background: var(--primary);
+            color: #FFF;
+            border: none;
+        }
+
+        /* Smooth Scroll Animations */
+        .animate-up {
+            opacity: 0;
+            transform: translateY(40px);
+            transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), transform 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+        }
+
+        .animate-up.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .delay-100 {
+            transition-delay: 100ms;
+        }
+
+        .delay-200 {
+            transition-delay: 200ms;
+        }
+
+        .delay-300 {
+            transition-delay: 300ms;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+
+            .navbar .container {
+                justify-content: center;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            section {
+                padding: 60px 0;
+            }
+
+            .top-header .container {
+                justify-content: center;
+                text-align: center;
+            }
+
+            .top-info {
+                justify-content: center;
+            }
+        }
+
+        /* Photo Modal */
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 2000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background-color: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(5px);
+            opacity: 0;
+            transition: opacity 0.3s ease;
+        }
+
+        .modal.show {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 1;
+        }
+
+        .modal-content {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 8px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+            transform: scale(0.9);
+            transition: transform 0.3s ease;
+        }
+
+        .modal.show .modal-content {
+            transform: scale(1);
+        }
+
+        .close-modal {
+            position: absolute;
+            top: 20px;
+            right: 35px;
+            color: #f1f1f1;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: 0.3s;
+            z-index: 2010;
+        }
+
+        .close-modal:hover,
+        .close-modal:focus {
+            color: #bbb;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+        /* Google Review Section */
+        .review-google-section {
+            padding: 80px 0;
+            background-color: var(--surface, #fbfbfd);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .google-review-card {
+            background: #ffffff;
+            border-radius: 28px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.06);
+            max-width: 650px;
+            width: 100%;
+            margin: 0 auto;
+            padding: 40px;
+            display: flex;
+            align-items: center;
+            position: relative;
+            border: 1px solid rgba(0, 0, 0, 0.04);
+        }
+
+        .google-review-card .nfc-icon {
+            position: absolute;
+            top: 24px;
+            right: 28px;
+            width: 28px;
+            height: 28px;
+            opacity: 0.8;
+        }
+
+        .gr-left {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding-right: 40px;
+            border-right: 2px solid #f0f0f0;
+        }
+
+        .gr-left .g-logo {
+            width: 72px;
+            margin-bottom: 12px;
+        }
+
+        .gr-left h3 {
+            font-size: 1.3rem;
+            color: #5f6368;
+            font-weight: 500;
+            margin-bottom: 2px;
+            line-height: 1.2;
+        }
+
+        .gr-left h2 {
+            font-size: 2.2rem;
+            color: #202124;
+            font-weight: 600;
+            margin-bottom: 12px;
+            line-height: 1.2;
+            letter-spacing: -0.5px;
+        }
+
+        .gr-left .stars {
+            display: flex;
+            gap: 4px;
+        }
+
+        .gr-left .stars svg {
+            width: 22px;
+            height: 22px;
+            fill: #fbbc04;
+        }
+
+        .gr-right {
+            flex: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-left: 40px;
+            text-align: center;
+        }
+
+        .gr-right .logo-placeholder {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: #1d1d1f;
+            line-height: 1.3;
+            margin-bottom: 28px;
+        }
+
+        .btn-google-review {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            background-color: #4285F4;
+            color: #ffffff !important;
+            font-size: 1.05rem;
+            font-weight: 600;
+            padding: 14px 28px;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 14px rgba(66, 133, 244, 0.4);
+            transition: all 0.3s ease;
+            white-space: nowrap;
+        }
+
+        .btn-google-review:hover {
+            background-color: #3367d6;
+            box-shadow: 0 6px 20px rgba(66, 133, 244, 0.6);
+            transform: translateY(-2px);
+        }
+
+        @media (max-width: 768px) {
+            .google-review-card {
+                flex-direction: column;
+                padding: 40px 24px;
+            }
+
+            .gr-left {
+                padding-right: 0;
+                padding-bottom: 30px;
+                border-right: none;
+                border-bottom: 2px solid #f0f0f0;
+                width: 100%;
+            }
+
+            .gr-right {
+                padding-left: 0;
+                padding-top: 30px;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- 1. Top Header -->
+    <div class="top-header">
+        <div class="container">
+            <div class="top-info">
+                <a href="tel:+919087663333">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg>
+                    +91 9087663333
+                </a>
+                <a href="#map">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                    </svg>
+                    10, Kovai Main Rd, opp. eb Office, Karur, Tamil Nadu 639002
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Navbar -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#home" class="nav-brand">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647180/e707bd42-4d67-4ad0-8d93-a73ef06695fc.png"
+                    alt="Logo" style="width: auto; height: 36px; border-radius: 4px; border: none; box-shadow: none;">
+                <span>City Bags</span>
+            </a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 3. Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646606/38a2b36f-bf96-4a10-9c4c-8ebf768e842b.png"
+                alt="City Bags Logo" class="hero-logo animate-up"
+                style="width: 85vw; max-width: 500px; height: auto; border-radius: 8px; border: none; box-shadow: none; background: transparent; padding: 0;">
+            <h1 class="animate-up delay-100">City Bags</h1>
+            <p class="tagline animate-up delay-200">Your trusted destination for quality bags, branded luggage, and
+                professional bag repair services in Karur.</p>
+
+            <div class="btn-group animate-up delay-300">
+                <a href="tel:+919087663333" class="btn btn-primary">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                    </svg>
+                    +91 9087663333
+                </a>
+                <a id="saveContactBtn"
+                    href="data:text/vcard;charset=utf-8,BEGIN:VCARD%0AVERSION:3.0%0AFN:City Bags%0AN:;City Bags;;;%0ATEL;TYPE=CELL:+919087663333%0AORG:City Bags%0ATITLE:Owner%20-%20𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐥𝐮𝐪𝐦𝐚𝐧 𝐔𝐥 𝐇𝐚𝐤𝐤𝐢𝐦%0AADR;TYPE=WORK:;;10,%20Kovai%20Main%20Rd;Karur;Tamil%20Nadu;;639002;India%0AEND:VCARD"
+                    download="City_Bags.vcf" class="btn btn-primary" style="background:#000;">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M19 3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-7 3c1.93 0 3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5S10.07 6 12 6zm7 13H5v-2.3c0-2.33 4.67-3.5 7-3.5s7 1.17 7 3.5V19z" />
+                    </svg>
+                    Save Contact
+                </a>
+            </div>
+
+            <div class="social-icons animate-up delay-300" style="flex-wrap: wrap;">
+
+                <a href="https://www.instagram.com/citybags_luggages_karur/" target="_blank" class="social-icon"><svg
+                        version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        viewBox="0 0 551.034 551.034" xml:space="preserve" fill="#000000">
+                        <g>
+                            <linearGradient id="XMLID_2_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.5714"
+                                x2="275.517" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                <stop offset="1" style="stop-color:#7024C4"></stop>
+                            </linearGradient>
+                            <path style="fill:url(#XMLID_2_);"
+                                d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z">
+                            </path>
+                            <linearGradient id="XMLID_3_" gradientUnits="userSpaceOnUse" x1="275.517" y1="4.5714"
+                                x2="275.517" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                <stop offset="1" style="stop-color:#7024C4"></stop>
+                            </linearGradient>
+                            <path style="fill:url(#XMLID_3_);"
+                                d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z">
+                            </path>
+                            <linearGradient id="XMLID_4_" gradientUnits="userSpaceOnUse" x1="418.306" y1="4.5714"
+                                x2="418.306" y2="549.7202" gradientTransform="matrix(1 0 0 -1 0 554)">
+                                <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                <stop offset="1" style="stop-color:#7024C4"></stop>
+                            </linearGradient>
+                            <circle style="fill:url(#XMLID_4_);" cx="418.306" cy="134.072" r="34.149"></circle>
+                        </g>
+                    </svg></a>
+
+                <a href="https://wa.me/919087663333" target="_blank" class="social-icon"><svg class="color-wa"
+                        viewBox="0 0 24 24">
+                        <path
+                            d="M12.031 6.172c-3.181 0-5.767 2.586-5.768 5.766-.001 1.298.38 2.27 1.019 3.287l-.582 2.128 2.182-.573c.978.58 1.911.928 3.145.929 3.178 0 5.767-2.587 5.768-5.766.001-3.187-2.575-5.77-5.764-5.771zm3.392 8.244c-.144.405-.837.774-1.17.824-.299.045-.677.063-1.092-.069-.252-.08-.575-.187-.988-.365-1.739-.751-2.874-2.502-2.961-2.617-.087-.116-.708-.94-.708-1.793s.448-1.273.607-1.446c.159-.173.346-.217.461-.217l.332.006c.106.005.249-.04.39.298.144.347.491 1.2.534 1.287.043.087.072.188.014.304-.058.116-.087.188-.173.289l-.26.304c-.087.086-.177.18-.076.354.101.174.449.741.964 1.201.666.596 1.216.78 1.391.867.175.087.277.072.378-.043.101-.116.433-.506.549-.68.116-.173.231-.145.39-.087s1.011.477 1.184.564.289.13.332.202c.045.072.045.419-.1.824zm-3.423-14.416c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm.029 18.88c-1.161 0-2.305-.292-3.318-.844l-3.677.964.984-3.595c-.607-1.052-.927-2.246-.926-3.468.001-3.825 3.113-6.937 6.937-6.937 1.856.001 3.598.723 4.907 2.034 1.31 1.311 2.031 3.054 2.03 4.908-.001 3.825-3.113 6.938-6.937 6.938z" />
+                    </svg></a>
+
+                <a href="https://maps.app.goo.gl/nLiRV1h5QoNhmuEw9" target="_blank" class="social-icon"><svg
+                        viewBox="-55.5 0 367 367" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                        <g>
+                            <path
+                                d="M70.5853976,271.865254 C81.1995596,285.391378 90.8598594,299.639537 99.4963338,314.50654 C106.870174,328.489419 109.94381,337.97007 115.333495,354.817346 C118.638014,364.124835 121.625069,366.902652 128.046515,366.902652 C135.045169,366.902652 138.219816,362.176756 140.672953,354.867852 C145.766819,338.95854 149.763988,326.815514 156.069992,315.343493 C168.443902,293.193112 183.819296,273.510299 198.927732,254.592287 C203.018698,249.238677 229.462067,218.047767 241.366994,193.437035 C241.366994,193.437035 255.999233,166.402027 255.999233,128.645368 C255.999233,93.3274168 241.569017,68.8321265 241.569017,68.8321265 L200.024428,79.9578224 L174.793197,146.408963 L168.552129,155.57215 L167.303915,157.231625 L165.64444,159.309576 L162.729537,162.628525 L158.56642,166.791642 L136.098575,185.09637 L79.928962,217.528279 L70.5853976,271.865254 Z"
+                                fill="#34A853"> </path>
+                            <path
+                                d="M12.6120081,188.891517 C26.3207125,220.205084 52.7568668,247.730719 70.6431185,271.8869 L165.64444,159.352866 C165.64444,159.352866 152.260416,176.856717 127.981579,176.856717 C100.939355,176.856717 79.0920095,155.2619 79.0920095,128.032084 C79.0920095,109.359386 90.325932,96.5309245 90.325932,96.5309245 L25.8373003,113.811107 L12.6120081,188.891517 Z"
+                                fill="#FBBC04"> </path>
+                            <path
+                                d="M166.705061,5.78651629 C198.256727,15.959818 225.262874,37.3165365 241.597878,68.8104812 L165.673301,159.28793 C165.673301,159.28793 176.907223,146.228586 176.907223,127.671329 C176.907223,99.8065834 153.443693,78.990998 128.09702,78.990998 C104.128433,78.990998 90.3620076,96.4659886 90.3620076,96.4659886 L90.3620076,39.4666386 L166.705061,5.78651629 Z"
+                                fill="#4285F4"> </path>
+                            <path
+                                d="M30.0148476,45.7654275 C48.8607087,23.2182162 82.0213432,0 127.736265,0 C149.915506,0 166.625695,5.82259183 166.625695,5.82259183 L90.2898565,96.5164943 L36.2054099,96.5164943 L30.0148476,45.7654275 Z"
+                                fill="#1A73E8"> </path>
+                            <path
+                                d="M12.6120081,188.891517 C12.6120081,188.891517 0,164.194204 0,128.414485 C0,94.5972757 13.145926,65.0369799 30.0148476,45.7654275 L90.3331471,96.5237094 L12.6120081,188.891517 Z"
+                                fill="#EA4335"> </path>
+                        </g>
+                    </svg></a>
+
+                <a href="https://share.google/U7D7d1OdP4Ffy260c" target="_blank" class="social-icon">
+                    <svg width="64px" height="64px" viewBox="0 0 32 32" data-name="Layer 1" id="Layer_1"
+                        xmlns="http://www.w3.org/2000/svg" fill="#000000">
+                        <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                        <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g>
+                        <g id="SVGRepo_iconCarrier">
+                            <path
+                                d="M23.75,16A7.7446,7.7446,0,0,1,8.7177,18.6259L4.2849,22.1721A13.244,13.244,0,0,0,29.25,16"
+                                fill="#00ac47"></path>
+                            <path
+                                d="M23.75,16a7.7387,7.7387,0,0,1-3.2516,6.2987l4.3824,3.5059A13.2042,13.2042,0,0,0,29.25,16"
+                                fill="#4285f4"></path>
+                            <path
+                                d="M8.25,16a7.698,7.698,0,0,1,.4677-2.6259L4.2849,9.8279a13.177,13.177,0,0,0,0,12.3442l4.4328-3.5462A7.698,7.698,0,0,1,8.25,16Z"
+                                fill="#ffba00"></path>
+                            <polygon fill="#2ab2db" points="8.718 13.374 8.718 13.374 8.718 13.374 8.718 13.374">
+                            </polygon>
+                            <path
+                                d="M16,8.25a7.699,7.699,0,0,1,4.558,1.4958l4.06-3.7893A13.2152,13.2152,0,0,0,4.2849,9.8279l4.4328,3.5462A7.756,7.756,0,0,1,16,8.25Z"
+                                fill="#ea4435"></path>
+                            <polygon fill="#2ab2db" points="8.718 18.626 8.718 18.626 8.718 18.626 8.718 18.626">
+                            </polygon>
+                            <path d="M29.25,15v1L27,19.5H16.5V14H28.25A1,1,0,0,1,29.25,15Z" fill="#4285f4"></path>
+                        </g>
+                    </svg>
+                </a>
+
+                <a href="https://g.page/r/CTerPFzv0QnSEAE/review" target="_blank" class="social-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 1080 1080">
+                        <defs>
+                            <style>
+                                .cls-1 {
+                                    fill: #4285f4;
+                                }
+
+                                .cls-2 {
+                                    fill: #fbbc05;
+                                }
+
+                                .cls-3 {
+                                    fill: #34a853;
+                                }
+
+                                .cls-4 {
+                                    fill: #ffd800;
+                                    fill-rule: evenodd;
+                                }
+
+                                .cls-5 {
+                                    fill: #ea4335;
+                                }
+                            </style>
+                        </defs>
+                        <path class="cls-1"
+                            d="m546.09,371.5v117.96h163.93c-7.2,37.94-28.8,70.06-61.2,91.66l98.86,76.7c57.6-53.16,90.83-131.25,90.83-224.02,0-21.6-1.94-42.37-5.54-62.3h-286.87Z" />
+                        <path class="cls-3"
+                            d="m375.39,484.86l-22.3,17.07-78.92,61.47h0c50.12,99.41,152.85,168.08,271.92,168.08,82.24,0,151.19-27.14,201.59-73.66l-98.86-76.7c-27.14,18.28-61.75,29.35-102.73,29.35-79.2,0-146.48-53.44-170.57-125.44l-.12-.18Z" />
+                        <path class="cls-2"
+                            d="m274.17,290.37c-20.77,40.98-32.67,87.23-32.67,136.51s11.91,95.53,32.67,136.51c0,.28,101.35-78.64,101.35-78.64-6.09-18.28-9.69-37.66-9.69-57.88s3.6-39.6,9.69-57.88l-101.35-78.64Z" />
+                        <path class="cls-5"
+                            d="m546.09,243.57c44.86,0,84.73,15.51,116.58,45.41l87.23-87.23c-52.89-49.29-121.56-79.47-203.8-79.47-119.07,0-221.8,68.4-271.92,168.08l101.35,78.64c24.09-72,91.38-125.44,170.57-125.44h0Z" />
+                        <path class="cls-4"
+                            d="m92.07,810.19l19.3,59.4h62.46l-50.53,36.71,19.3,59.4-50.53-36.71-50.53,36.71,19.3-59.4-50.53-36.71h62.46l19.3-59.4Z" />
+                        <path class="cls-4"
+                            d="m316.84,810.19l19.3,59.4h62.46l-50.53,36.71,19.3,59.4-50.53-36.71-50.53,36.71,19.3-59.4-50.53-36.71h62.46l19.3-59.4Z" />
+                        <path class="cls-4"
+                            d="m540.57,810.19l19.3,59.4h62.46l-50.53,36.71,19.3,59.4-50.53-36.71-50.53,36.71,19.3-59.4-50.53-36.71h62.46l19.3-59.4Z" />
+                        <path class="cls-4"
+                            d="m764.29,810.19l19.3,59.4h62.46l-50.53,36.71,19.3,59.4-50.53-36.71-50.53,36.71,19.3-59.4-50.53-36.71h62.46l19.3-59.4Z" />
+                        <path class="cls-4"
+                            d="m987.93,810.19l19.3,59.4h62.46l-50.53,36.71,19.3,59.4-50.53-36.71-50.53,36.71,19.3-59.4-50.53-36.71h62.46l19.3-59.4Z" />
+                    </svg>
+                </a>
+
+                <a href="https://www.youtube.com/@citybagsbagsluggages3892" target="_blank" class="social-icon"><svg
+                        class="color-yt" viewBox="0 0 24 24">
+                        <path
+                            d="M21.582 6.186a2.63 2.63 0 0 0-1.85-1.864C18.1 3.888 12 3.888 12 3.888s-6.1 0-7.732.434A2.63 2.63 0 0 0 2.418 6.186C2 7.828 2 12 2 12s0 4.172.418 5.814a2.63 2.63 0 0 0 1.85 1.864C5.9 20.112 12 20.112 12 20.112s6.1 0 7.732-.434a2.63 2.63 0 0 0 1.85-1.864C22 16.172 22 12 22 12s0-4.172-.418-5.814zM9.993 15.36V8.64L15.827 12l-5.834 3.36z" />
+                    </svg></a>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. About Us -->
+    <section id="about" class="bg-surface">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-image-wrapper animate-up">
+                    <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646201/5b6a563c-8c04-4b23-931c-6b2c55c6755b.png"
+                        alt="About Us Spa Image" class="about-main-img">
+                </div>
+                <div class="about-text animate-up delay-100">
+                    <h2>About Us</h2>
+                    <h3 style="margin-bottom: 16px; color: var(--text-dark);">Welcome to City Bags Karur</h3>
+                    <p>City Bags Karur is a trusted local destination for high-quality luggage, backpacks, handbags, and
+                        everyday bags. Established on September 9, 1998, we have been serving customers for over 25
+                        years with a commitment to quality, value, and excellent customer service.</p>
+
+                    <h3 style="margin-top: 24px; margin-bottom: 16px; color: var(--text-dark);">Our Story</h3>
+                    <p>Founded and led by Mohammed Luqman Ul Hakkim, City Bags was built with a simple vision — to
+                        provide durable, stylish, and affordable bags for every need. From everyday essentials to long
+                        journeys, we understand that the right bag plays an important role in our customers' daily
+                        lives.</p>
+                    <p>Over the years, our dedication to quality products and customer satisfaction has helped us build
+                        a strong reputation among customers in Karur.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 5. Services -->
+    <section id="services">
+        <div class="container">
+            <h2 class="animate-up">Our Services</h2>
+            <div class="grid-3">
+                <div class="card animate-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"></path>
+                            <line x1="3" y1="6" x2="21" y2="6"></line>
+                            <path d="M16 10a4 4 0 0 1-8 0"></path>
+                        </svg>
+                    </div>
+                    <h3>Branded Bags & Luggage</h3>
+                    <p>Quality branded bags and luggage for everyday use, work and travel.</p>
+                </div>
+                <div class="card animate-up delay-100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="4" y="6" width="16" height="14" rx="2"></rect>
+                            <path d="M8 21v-4a4 4 0 0 1 8 0v4"></path>
+                            <path d="M8 6V4a2 2 0 0 1 4 0v2"></path>
+                        </svg>
+                    </div>
+                    <h3>Handbags</h3>
+                    <p>Stylish and durable handbags designed for everyday use and special occasions.</p>
+                </div>
+                <div class="card animate-up delay-200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 20h16"></path>
+                            <path d="M5 20v-5c0-1.7 1.3-3 3-3h8c1.7 0 3 1.3 3 3v5"></path>
+                            <path d="M8 12v-2c0-2.2 1.8-4 4-4s4 1.8 4 4v2"></path>
+                            <path d="M10 6V4"></path>
+                            <path d="M14 6V4"></path>
+                        </svg>
+                    </div>
+                    <h3>Backpacks & Travel Bags</h3>
+                    <p>Practical and comfortable bags for school, work, travel and daily use.</p>
+                </div>
+                <div class="card animate-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <rect x="6" y="8" width="12" height="12" rx="2"></rect>
+                            <path d="M8 8V4a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v4"></path>
+                            <circle cx="8" cy="21" r="1"></circle>
+                            <circle cx="16" cy="21" r="1"></circle>
+                        </svg>
+                    </div>
+                    <h3>Trolley Bags</h3>
+                    <p>Durable trolley bags designed for convenient, secure and comfortable travel.</p>
+                </div>
+                <div class="card animate-up delay-100">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Trolley Bag Repair & Service</h3>
+                    <p>Professional repair and servicing to keep your trolley bags functional and travel-ready.</p>
+                </div>
+                <div class="card animate-up delay-200">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Handbag Repair & Service</h3>
+                    <p>Reliable repair and maintenance to restore the functionality and appearance of your handbags.</p>
+                </div>
+                <div class="card animate-up">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                            stroke-linecap="round" stroke-linejoin="round">
+                            <path
+                                d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z">
+                            </path>
+                        </svg>
+                    </div>
+                    <h3>Luggage Repair & Service</h3>
+                    <p>Dependable repair and maintenance for a wide range of luggage and travel bags.</p>
+                </div>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 6. Gallery -->
+    <section id="gallery" class="bg-surface">
+        <div class="container">
+            <h2 class="animate-up">Gallery</h2>
+            <div class="gallery-grid">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787645420/384074d6-6efb-452a-919b-a9fc4b615269.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787645427/67139a7c-c839-4524-8157-bc5f98824ea9.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787645434/e52d80b1-d505-4884-b956-4a201e1f000c.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787645494/7c0eb4e0-7bf9-4364-9c52-2d7c5f8d3115.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646517/ecf9d657-c1b9-476d-a2ba-bc11f3781721.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646522/0f5f0c44-204b-4f93-89d2-3defcc4deb7b.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646527/be836f2b-0d9d-4ac0-9aa7-466e597cd23a.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646530/cd1d9591-c7b4-4e60-9d47-0d7f1014d3ac.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646533/e1eec332-f478-4f6d-9371-4abfe3c0e35f.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646538/68996917-4f79-483b-9a26-8977057c089c.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646542/b78e6986-2468-4406-92fb-eeae2a6ae4c2.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646545/97b0aa59-ce65-4d27-b594-2d8dd6b3ac3e.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646548/f46e16bc-568d-4335-a457-7bb427b6ba60.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646552/3115cd1d-776b-464d-85bd-a57916c540ee.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646554/f4f87694-b996-497c-bc36-11b229e9508a.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646558/218b0304-ae8e-4c5e-a10f-59122f0cd7a9.png"
+                    alt="City Bags" class="gallery-img animate-up">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646562/27d7cbad-cedd-4ffc-8d13-3cfbb859995f.png"
+                    alt="City Bags" class="gallery-img animate-up delay-100">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646565/1b079a3e-71b4-448b-91a1-b99e7e79a8eb.png"
+                    alt="City Bags" class="gallery-img animate-up delay-200">
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Brands Section -->
+    <section id="brands" class="bg-surface">
+        <div class="container" style="text-align: center;">
+            <h2 class="animate-up">Our Brands</h2>
+            <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787648358/ctbrands.gif" alt="Our Brands"
+                class="animate-up delay-100"
+                style="width: 100%; height: auto; max-width: 1000px; border-radius: var(--radius); box-shadow: var(--shadow-md);">
+        </div>
+    </section>
+
+    <!-- Offers Section -->
+    <section id="offers">
+        <div class="container">
+            <h2 class="animate-up">Special Offers</h2>
+            <div class="grid-2">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646031/2f0e74b5-e1a9-4b2c-8d61-20293218c58a.png"
+                    alt="Special Offer 1" class="animate-up"
+                    style="width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow-md);">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646029/048e268d-98da-4150-a90c-34f85dc2c06d.png"
+                    alt="Special Offer 2" class="animate-up delay-100"
+                    style="width: 100%; height: auto; border-radius: var(--radius); box-shadow: var(--shadow-md);">
+            </div>
+        </div>
+    </section>
+
+    <!-- 10. Dual QR Codes -->
+    <section class="section" id="others">
+        <div class="container">
+            <div style="text-align: center; margin-bottom: 60px;" class="animate-up">
+                <span
+                    style="font-family: monospace; font-size: 13px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--primary); margin-bottom: 12px; display: block; font-weight: 500;">Quick
+                    Actions</span>
+                <h2 style="margin-bottom: 16px;">Scan & Connect</h2>
+            </div>
+            <div class="qr-grid">
+                <div class="qr-card-new animate-up">
+                    <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647908/cb0a3dec-7dc7-45fc-985a-7ef2a3265a48.png"
+                        alt="WhatsApp QR" class="qr-img-new">
+                    <div style="text-align: left;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Gogle review</h3>
+                        <p style="color: var(--text-light); font-size: 15px; margin-top: 8px;">Scan to directly review
+                            us on Gogle .</p>
+                    </div>
+                </div>
+                <div class="qr-card-new animate-up delay-100">
+                    <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787647965/unnamed.png"
+                        alt="Directions QR" class="qr-img-new">
+                    <div style="text-align: left;">
+                        <h3 style="font-size: 1.25rem; margin-bottom: 8px;">Get Directions</h3>
+                        <p style="color: var(--text-light); font-size: 15px; margin-top: 8px;">Scan to open our store
+                            location in Google Maps.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Owner Section -->
+    <section id="owner">
+        <div class="container">
+            <h2 class="animate-up">Meet The Owner</h2>
+            <div class="owner-section">
+                <div class="owner-profile-clean animate-up delay-100">
+                    <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646349/f6245389-e0ed-4284-b8e4-5edbcc21b0ab.png"
+                        alt="𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐥𝐮𝐪𝐦𝐚𝐧 𝐔𝐥 𝐇𝐚𝐤𝐤𝐢𝐦 - Owner photo" class="owner-img-clean">
+                    <div class="owner-info-clean">
+                        <h3>𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐥𝐮𝐪𝐦𝐚𝐧 𝐔𝐥 𝐇𝐚𝐤𝐤𝐢𝐦</h3>
+                        <h4>Owner – City Bags</h4>
+                        <p>"𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐥𝐮𝐪𝐦𝐚𝐧 𝐔𝐥 𝐇𝐚𝐤𝐤𝐢𝐦 manages City Bags, offering quality
+                            products, reliable service, and professional bag repair in Karur."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 9. Contact Us & 10. Map -->
+    <section id="contact" class="bg-surface">
+        <div class="container">
+            <h2 class="animate-up" style="margin-bottom: 48px;">Contact Us</h2>
+            <div class="contact-card-unified animate-up">
+                <div class="contact-info-unified">
+                    <h3 style="margin-bottom: 32px; font-size: 1.5rem; color: var(--text-dark);">Get In Touch</h3>
+                    <div class="contact-details-list">
+                        <div class="contact-item">
+                            <div class="contact-icon"
+                                style="background: rgba(0, 113, 227, 0.08); color: var(--primary);">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Business Name</h4>
+                                <p style="font-weight: 500; color: var(--text-dark);">City Bags
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"
+                                style="background: rgba(0, 113, 227, 0.08); color: var(--primary);">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Owner</h4>
+                                <p style="font-weight: 500; color: var(--text-dark);">𝐌𝐨𝐡𝐚𝐦𝐦𝐞𝐝 𝐥𝐮𝐪𝐦𝐚𝐧 𝐔𝐥
+                                    𝐇𝐚𝐤𝐤𝐢𝐦</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon"
+                                style="background: rgba(0, 113, 227, 0.08); color: var(--primary);">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Address</h4>
+                                <p><a href="https://maps.app.goo.gl/nLiRV1h5QoNhmuEw9" target="_blank"
+                                        style="color: var(--text-dark); text-decoration: none;"
+                                        onmouseover="this.style.color='var(--primary)'"
+                                        onmouseout="this.style.color='var(--text-dark)'">10, Kovai Main Rd,<br>opp. eb
+                                        Office, Karur,<br>Tamil Nadu 639002</a>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon"
+                                style="background: rgba(0, 113, 227, 0.08); color: var(--primary);">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p><a href="tel:+919087663333" style="color: var(--text-dark); text-decoration: none;"
+                                        onmouseover="this.style.color='var(--primary)'"
+                                        onmouseout="this.style.color='var(--text-dark)'">+91 9087663333</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background: rgba(37, 211, 102, 0.1); color: #25D366;">
+                                <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="currentColor">
+                                    <path fill-rule="nonzero"
+                                        d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>WhatsApp</h4>
+                                <p><a href="https://wa.me/919087663333?text=Hi,%20I%20am%20interested%20in%20City Bags.%20I%20would%20like%20to%20know%20about%20room%20availability,%20rent%20and%20facilities."
+                                        style="text-decoration:none; color:var(--text-dark); transition: color 0.3s;"
+                                        onmouseover="this.style.color='#25D366'"
+                                        onmouseout="this.style.color='var(--text-dark)'">+91 9087663333</a></p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background: rgba(228, 64, 95, 0.1); color: #E4405F;">
+                                <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 551.034 551.034"
+                                    xml:space="preserve" fill="#000000">
+                                    <g>
+                                        <linearGradient id="i_XMLID_2_" gradientUnits="userSpaceOnUse" x1="275.517"
+                                            y1="4.5714" x2="275.517" y2="549.7202"
+                                            gradientTransform="matrix(1 0 0 -1 0 554)">
+                                            <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                            <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                            <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                            <stop offset="1" style="stop-color:#7024C4"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#i_XMLID_2_);"
+                                            d="M386.878,0H164.156C73.64,0,0,73.64,0,164.156v222.722 c0,90.516,73.64,164.156,164.156,164.156h222.722c90.516,0,164.156-73.64,164.156-164.156V164.156 C551.033,73.64,477.393,0,386.878,0z M495.6,386.878c0,60.045-48.677,108.722-108.722,108.722H164.156 c-60.045,0-108.722-48.677-108.722-108.722V164.156c0-60.046,48.677-108.722,108.722-108.722h222.722 c60.045,0,108.722,48.676,108.722,108.722L495.6,386.878L495.6,386.878z">
+                                        </path>
+                                        <linearGradient id="i_XMLID_3_" gradientUnits="userSpaceOnUse" x1="275.517"
+                                            y1="4.5714" x2="275.517" y2="549.7202"
+                                            gradientTransform="matrix(1 0 0 -1 0 554)">
+                                            <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                            <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                            <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                            <stop offset="1" style="stop-color:#7024C4"></stop>
+                                        </linearGradient>
+                                        <path style="fill:url(#i_XMLID_3_);"
+                                            d="M275.517,133C196.933,133,133,196.933,133,275.516 s63.933,142.517,142.517,142.517S418.034,354.1,418.034,275.516S354.101,133,275.517,133z M275.517,362.6 c-48.095,0-87.083-38.988-87.083-87.083s38.989-87.083,87.083-87.083c48.095,0,87.083,38.988,87.083,87.083 C362.6,323.611,323.611,362.6,275.517,362.6z">
+                                        </path>
+                                        <linearGradient id="i_XMLID_4_" gradientUnits="userSpaceOnUse" x1="418.306"
+                                            y1="4.5714" x2="418.306" y2="549.7202"
+                                            gradientTransform="matrix(1 0 0 -1 0 554)">
+                                            <stop offset="0" style="stop-color:#E09B3D"></stop>
+                                            <stop offset="0.3" style="stop-color:#C74C4D"></stop>
+                                            <stop offset="0.6" style="stop-color:#C21975"></stop>
+                                            <stop offset="1" style="stop-color:#7024C4"></stop>
+                                        </linearGradient>
+                                        <circle style="fill:url(#i_XMLID_4_);" cx="418.306" cy="134.072" r="34.149">
+                                        </circle>
+                                    </g>
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Instagram</h4>
+                                <p><a href="https://www.instagram.com/citybags_luggages_karur/" target="_blank"
+                                        style="text-decoration:none; color:var(--text-dark); transition: color 0.3s;"
+                                        onmouseover="this.style.color='#E4405F'"
+                                        onmouseout="this.style.color='var(--text-dark)'">@citybags_luggages_karur</a>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon" style="background: rgba(255, 0, 0, 0.1); color: #FF0000;">
+                                <svg viewBox="0 0 24 24" fill="currentColor">
+                                    <path
+                                        d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.086 0 12 0 12s0 3.914.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.376.55 9.376.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.914 24 12 24 12s0-3.914-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                                </svg>
+                            </div>
+                            <div class="contact-text">
+                                <h4>YouTube</h4>
+                                <p><a href="https://www.youtube.com/@citybagsbagsluggages3892" target="_blank"
+                                        style="text-decoration:none; color:var(--text-dark); transition: color 0.3s;"
+                                        onmouseover="this.style.color='#FF0000'"
+                                        onmouseout="this.style.color='var(--text-dark)'">@citybagsbagsluggages3892</a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map-unified delay-100">
+                    <iframe
+                        src="https://maps.google.com/maps?q=City+Bags,+10,+Kovai+Main+Rd,+Karur&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- review us on google -->
+    <section class="review-google-section">
+        <div class="container">
+            <div class="google-review-card animate-up">
+                <!-- NFC/Wifi Icon -->
+                <svg class="nfc-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M12.5 5C15 6.5 16.5 9 16.5 12s-1.5 5.5-4 7" stroke="#1d1d1f" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <path d="M16 2.5C19.5 4.5 21.5 8 21.5 12s-2 7.5-5.5 9.5" stroke="#1d1d1f" stroke-width="2.5"
+                        stroke-linecap="round" />
+                    <path d="M9.5 7.5c1.5 1 2.5 2.5 2.5 4.5s-1 3.5-2.5 4.5" stroke="#1d1d1f" stroke-width="2.5"
+                        stroke-linecap="round" />
+                </svg>
+
+                <div class="gr-left">
+                    <svg class="g-logo" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#EA4335"
+                            d="M24 9.5c3.54 0 6.71 1.22 9.21 3.6l6.85-6.85C35.9 2.38 30.47 0 24 0 14.62 0 6.51 5.38 2.56 13.22l7.98 6.19C12.43 13.72 17.74 9.5 24 9.5z" />
+                        <path fill="#4285F4"
+                            d="M46.98 24.55c0-1.57-.15-3.09-.38-4.55H24v9.02h12.94c-.58 2.96-2.26 5.48-4.78 7.18l7.73 6c4.51-4.18 7.09-10.36 7.09-17.65z" />
+                        <path fill="#FBBC05"
+                            d="M10.53 28.59c-.48-1.45-.76-2.99-.76-4.59s.27-3.14.76-4.59l-7.98-6.19C.92 16.46 0 20.12 0 24c0 3.88.92 7.54 2.56 10.78l7.97-6.19z" />
+                        <path fill="#34A853"
+                            d="M24 48c6.48 0 11.93-2.13 15.89-5.81l-7.73-6c-2.15 1.45-4.92 2.3-8.16 2.3-6.26 0-11.57-4.22-13.47-9.91l-7.98 6.19C6.51 42.62 14.62 48 24 48z" />
+                    </svg>
+                    <h3>review us</h3>
+                    <h2>on Google</h2>
+                    <div class="stars">
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                        <svg viewBox="0 0 24 24">
+                            <path
+                                d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z" />
+                        </svg>
+                    </div>
+                </div>
+
+                <div class="gr-right">
+                    <div class="logo-placeholder">
+                        City Bags
+                    </div>
+                    <a href="https://g.page/r/CTerPFzv0QnSEAE/review" target="_blank" class="btn-google-review">
+                        Review Us on Google
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 11. Footer -->
+    <footer class="footer-new">
+        <div class="container">
+            <div class="footer-content">
+                <img src="https://res.cloudinary.com/cjyahkzq/image/upload/v1787646606/38a2b36f-bf96-4a10-9c4c-8ebf768e842b.png"
+                    alt="City Bags Logo" class="footer-logo animate-up"
+                    style="width: 85vw; max-width: 400px; height: auto; border-radius: 8px; border: none; background: transparent; padding: 0;">
+                <h2 class="animate-up delay-100">City Bags</h2>
+                <p class="animate-up delay-100">Your trusted destination for quality bags, branded luggage, and
+                    professional bag repair services in Karur.</p>
+                <div class="social-icons-footer animate-up delay-200">
+
+                    <a href="https://wa.me/919087663333" target="_blank"><svg viewBox="0 0 24 24"
+                            xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="nonzero"
+                                d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z">
+                            </path>
+                        </svg></a>
+                    <a href="https://www.instagram.com/citybags_luggages_karur/" target="_blank"><svg
+                            viewBox="0 0 24 24" fill="currentColor">
+                            <path
+                                d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                        </svg></a>
+                    <a href="https://www.youtube.com/@citybagsbagsluggages3892" target="_blank"><svg viewBox="0 0 24 24"
+                            fill="currentColor">
+                            <path
+                                d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.5 12 3.5 12 3.5s-7.505 0-9.377.55a3.016 3.016 0 0 0-2.122 2.136C0 8.086 0 12 0 12s0 3.914.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.55 9.376.55 9.376.55s7.505 0 9.377-.55a3.016 3.016 0 0 0 2.122-2.136C24 15.914 24 12 24 12s0-3.914-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                        </svg></a>
+
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div>&copy; <span id="year"></span> City Bags. All Rights Reserved.</div>
+                <div style="margin-top: 8px;">
+                    <a href="http://www.adtour.in/" target="_blank"
+                        style="color: rgba(255,255,255,0.5); text-decoration: none; font-size: 0.9rem; transition: color 0.3s;"
+                        onmouseover="this.style.color='#FFF'"
+                        onmouseout="this.style.color='rgba(255,255,255,0.5)'">Website developed by ADTOUR</a>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+    <!-- 12. Floating Action Stack -->
+    <div class="fab-stack">
+        <a href="https://wa.me/919087663333?text=Hi,%20I%20am%20interested%20in%20City Bags.%20I%20would%20like%20to%20know%20about%20room%20availability,%20rent%20and%20facilities."
+            target="_blank" class="fab-new fab-whatsapp">
+            <div class="fab-icon-new"><svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="nonzero"
+                        d="M7.253 18.494l.724.423A7.953 7.953 0 0 0 12 20a8 8 0 1 0-8-8c0 1.436.377 2.813 1.084 4.024l.422.724-.653 2.401 2.4-.655zM2.004 22l1.352-4.968A9.954 9.954 0 0 1 2 12C2 6.477 6.477 2 12 2s10 4.477 10 10-4.477 10-10 10a9.954 9.954 0 0 1-5.03-1.355L2.004 22zM8.391 7.308c.134-.01.269-.01.403-.004.054.004.108.01.162.016.159.018.334.115.393.249.298.676.588 1.357.868 2.04.062.152.025.347-.093.537a4.38 4.38 0 0 1-.263.372c-.113.145-.356.411-.356.411s-.099.118-.061.265c.014.056.06.137.102.205l.059.095c.256.427.6.86 1.02 1.268.12.116.237.235.363.346.468.413.998.75 1.57 1l.005.002c.085.037.128.057.252.11.062.026.126.049.191.066a.35.35 0 0 0 .367-.13c.724-.877.79-.934.796-.934v.002a.482.482 0 0 1 .378-.127c.06.004.121.015.177.04.531.243 1.4.622 1.4.622l.582.261c.098.047.187.158.19.265.004.067.01.175-.013.373-.032.259-.11.57-.188.733a1.155 1.155 0 0 1-.21.302 2.378 2.378 0 0 1-.33.288 3.71 3.71 0 0 1-.125.09 5.024 5.024 0 0 1-.383.22 1.99 1.99 0 0 1-.833.23c-.185.01-.37.024-.556.014-.008 0-.568-.087-.568-.087a9.448 9.448 0 0 1-3.84-2.046c-.226-.199-.435-.413-.649-.626-.89-.885-1.562-1.84-1.97-2.742A3.47 3.47 0 0 1 6.9 9.62a2.729 2.729 0 0 1 .564-1.68c.073-.094.142-.192.261-.305.127-.12.207-.184.294-.228a.961.961 0 0 1 .371-.1z">
+                    </path>
+                </svg></div>
+            <div class="fab-label">WhatsApp</div>
+        </a>
+        <a href="https://maps.app.goo.gl/nLiRV1h5QoNhmuEw9" target="_blank" class="fab-new">
+            <div class="fab-icon-new"><svg viewBox="-55.5 0 367 367" version="1.1" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink" preserveAspectRatio="xMidYMid">
+                    <g>
+                        <path
+                            d="M70.5853976,271.865254 C81.1995596,285.391378 90.8598594,299.639537 99.4963338,314.50654 C106.870174,328.489419 109.94381,337.97007 115.333495,354.817346 C118.638014,364.124835 121.625069,366.902652 128.046515,366.902652 C135.045169,366.902652 138.219816,362.176756 140.672953,354.867852 C145.766819,338.95854 149.763988,326.815514 156.069992,315.343493 C168.443902,293.193112 183.819296,273.510299 198.927732,254.592287 C203.018698,249.238677 229.462067,218.047767 241.366994,193.437035 C241.366994,193.437035 255.999233,166.402027 255.999233,128.645368 C255.999233,93.3274168 241.569017,68.8321265 241.569017,68.8321265 L200.024428,79.9578224 L174.793197,146.408963 L168.552129,155.57215 L167.303915,157.231625 L165.64444,159.309576 L162.729537,162.628525 L158.56642,166.791642 L136.098575,185.09637 L79.928962,217.528279 L70.5853976,271.865254 Z"
+                            fill="#34A853"> </path>
+                        <path
+                            d="M12.6120081,188.891517 C26.3207125,220.205084 52.7568668,247.730719 70.6431185,271.8869 L165.64444,159.352866 C165.64444,159.352866 152.260416,176.856717 127.981579,176.856717 C100.939355,176.856717 79.0920095,155.2619 79.0920095,128.032084 C79.0920095,109.359386 90.325932,96.5309245 90.325932,96.5309245 L25.8373003,113.811107 L12.6120081,188.891517 Z"
+                            fill="#FBBC04"> </path>
+                        <path
+                            d="M166.705061,5.78651629 C198.256727,15.959818 225.262874,37.3165365 241.597878,68.8104812 L165.673301,159.28793 C165.673301,159.28793 176.907223,146.228586 176.907223,127.671329 C176.907223,99.8065834 153.443693,78.990998 128.09702,78.990998 C104.128433,78.990998 90.3620076,96.4659886 90.3620076,96.4659886 L90.3620076,39.4666386 L166.705061,5.78651629 Z"
+                            fill="#4285F4"> </path>
+                        <path
+                            d="M30.0148476,45.7654275 C48.8607087,23.2182162 82.0213432,0 127.736265,0 C149.915506,0 166.625695,5.82259183 166.625695,5.82259183 L90.2898565,96.5164943 L36.2054099,96.5164943 L30.0148476,45.7654275 Z"
+                            fill="#1A73E8"> </path>
+                        <path
+                            d="M12.6120081,188.891517 C12.6120081,188.891517 0,164.194204 0,128.414485 C0,94.5972757 13.145926,65.0369799 30.0148476,45.7654275 L90.3331471,96.5237094 L12.6120081,188.891517 Z"
+                            fill="#EA4335"> </path>
+                    </g>
+                </svg></div>
+            <div class="fab-label">Directions</div>
+        </a>
+        <a href="tel:+919087663333" class="fab-new fab-call">
+            <div class="fab-icon-new"><svg viewBox="0 0 24 24">
+                    <path
+                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                </svg></div>
+            <div class="fab-label">Call Now</div>
+        </a>
+    </div>
+
+    <!-- Photo Modal -->
+    <div id="photoModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <!-- Animation & Interactions Script -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observerOptions = {
+                root: null,
+                rootMargin: '0px',
+                threshold: 0.15
+            };
+
+            const observer = new IntersectionObserver((entries, observer) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('visible');
+                        observer.unobserve(entry.target);
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.animate-up').forEach(el => {
+                observer.observe(el);
+            });
+
+            // Photo Modal Logic
+            const modal = document.getElementById('photoModal');
+            const modalImg = document.getElementById('modalImage');
+            const closeBtn = document.querySelector('.close-modal');
+            const galleryImages = document.querySelectorAll('.gallery-img');
+
+            galleryImages.forEach(img => {
+                img.addEventListener('click', function () {
+                    modal.classList.add('show');
+                    modalImg.src = this.src;
+                });
+            });
+
+            closeBtn.addEventListener('click', () => {
+                modal.classList.remove('show');
+            });
+
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    modal.classList.remove('show');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>
